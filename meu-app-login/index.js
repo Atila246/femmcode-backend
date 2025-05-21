@@ -1,3 +1,6 @@
+const cors = require('cors');
+app.use(cors({ origin: 'http://localhost:5173' }));
+
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
